@@ -1,0 +1,4 @@
+[empty-plan]
+plan_path = "empty-plan"
+[empty-downstream-plan]
+plan_path = "empty-downstream-plan"
