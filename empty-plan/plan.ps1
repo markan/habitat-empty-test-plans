@@ -5,3 +5,9 @@ $pkg_license=("Apache-2.0")
 $pkg_maintainer="Scott Macfarlane"
 $pkg_description="Empty Plan"
 
+Invoke-Before() {
+  Write-Host "FOO $foo"
+  Write-Host "env:FOO $env:foo"
+  
+}
+
